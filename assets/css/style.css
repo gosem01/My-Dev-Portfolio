@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* general header style */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgrey;
+    color: #ffffff;
+}
+
+/* h1 styling and size*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    background-color: lightseagreen;
+}
+
+/* .header h1 .seo {
+    color: teal;
+} */
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* ensure default list type syling set to none */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* header nave list item styling set to display inline block and margin left set to 25px */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    border-bottom: .25rem solid lightseagreen;
+}
+
+/* style link with color and have no decorations applied to font */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    color: lightseagreen;
+    /* border-bottom: teal; */
+}
