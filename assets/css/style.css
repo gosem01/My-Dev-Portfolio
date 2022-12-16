@@ -12,7 +12,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkgrey;
+    background-color: #282828;
     color: #ffffff;
 }
 
@@ -20,8 +20,11 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: white;
+    color: #282828;
     background-color: lightseagreen;
+    padding-left: 50px;
+    padding-right: 15px;
+    margin-left: -20px;
 }
 
 /* .header h1 .seo {
@@ -46,6 +49,7 @@ body {
     display: inline-block;
     margin-left: 25px;
     border-bottom: .25rem solid lightseagreen;
+    padding:0 10px;
 }
 
 /* style link with color and have no decorations applied to font */
@@ -54,4 +58,27 @@ a {
     text-decoration: none;
     color: lightseagreen;
     /* border-bottom: teal; */
+}
+
+/* Set dimensions, background, size and position of the hero class */
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/hero-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    position: relative;
+    float: right;
+    margin-top: 140px;
+    margin-right: 75px;
+    display: inline-block;
+    font-size: 38px;
+    color: #282828;
+    background-color: lightseagreen;
+    padding-left: 15px;
+    padding-right: 15px;
 }
